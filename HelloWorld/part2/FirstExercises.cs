@@ -48,5 +48,27 @@ namespace first.part2
             Console.WriteLine("The image is "+demensions);
         }
 
+        //enter speed limit
+        // speed of a car
+        // for every 5 over the speed limit calculate 1 demerit
+        //if more than 12 demerits...should display "License Suspended"
+        public void takingRadar()
+        {
+            Console.Write("What speed is your car going? ");
+            int carSpeed = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            Console.WriteLine("What is the speed limit? ");
+            int speedLimit = int.Parse(Console.ReadLine());
+            int differenceInSpeed = carSpeed - speedLimit;
+            if(differenceInSpeed > 0)
+            {
+                int demerits = differenceInSpeed / 5;
+                if (demerits > 12) Console.WriteLine("Licence supsended"); 
+                else Console.WriteLine(demerits + " given");
+            }
+            else Console.WriteLine("Thank you for not speeding.");
+        }
+
     }
 }

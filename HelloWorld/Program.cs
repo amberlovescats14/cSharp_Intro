@@ -66,7 +66,8 @@ namespace first
             exercises.sanity();
             //Console.WriteLine(exercises.isValidNumber());
             //exercises.displayLargestNumber();
-            exercises.checkImageDemensions();
+            //exercises.checkImageDemensions();
+            exercises.takingRadar();
 
 
 
