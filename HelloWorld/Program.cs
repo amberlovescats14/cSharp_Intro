@@ -20,19 +20,12 @@ namespace first
             int oneNumber = Convert.ToInt32(one);
             int oneParse = int.Parse(one);
 
-            //! PRIMITIVES DO NOT HOLD REFERENCE TYPES
+            //!STRUCTURES(Primitives) DO NOT HOLD REFERENCE TYPES
             // i still equal 1
             byte b = 1;
             int i = b;
             b = 10;
             //Console.WriteLine(i);
-
-            Int32 refA = 1;
-            Int32 refB = refA;
-            refA = 10;
-            Console.WriteLine("ref: "+refB);
-
-
 
             try
             {
@@ -68,8 +61,14 @@ namespace first
             var methodId = 3;
             Console.WriteLine((EnumLec)methodId);
 
+            // in a different folder;
+            var exercises = new part2.FirsExercises();
+            exercises.sanity();
+            //Console.WriteLine(exercises.isValidNumber());
+            //exercises.displayLargestNumber();
+            exercises.checkImageDemensions();
 
-           
+
 
 
         }

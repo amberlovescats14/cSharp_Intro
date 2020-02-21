@@ -8,4 +8,3 @@
 /Users/amberjones/Projects/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/first.AssemblyInfo.cs
 /Users/amberjones/Projects/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/first.dll
 /Users/amberjones/Projects/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/first.pdb
-/Users/amberjones/Projects/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/first.csprojAssemblyReference.cache
