@@ -67,7 +67,19 @@ namespace first
             //Console.WriteLine(exercises.isValidNumber());
             //exercises.displayLargestNumber();
             //exercises.checkImageDemensions();
-            exercises.takingRadar();
+            //exercises.takingRadar();
+
+
+            //! Loop lecture *** this one is cool
+            new Loops().randomChars();
+
+            //! Recursion Factorial
+            var loopExercises = new part2.LoopExercises();
+            //Console.WriteLine("Factorial: "+
+            //    loopExercises.recursiveFactorial(5));
+            //loopExercises.askUserToGuessTheNumber();
+            loopExercises.getLargestNumbers();
+
 
 
 

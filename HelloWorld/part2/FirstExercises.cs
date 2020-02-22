@@ -23,6 +23,7 @@ namespace first.part2
         public void displayLargestNumber()
         {
             //not checking for validation:: just writing code
+            //Convert.ToInt32()
             Console.WriteLine("Please enter two numbers");
             Console.Write("1: ");
             int inputOne = int.Parse(Console.ReadLine());
