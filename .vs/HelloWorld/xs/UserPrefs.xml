@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{98965359-FB9C-4C77-B780-C48FFFA49E83}|Default">
   <MonoDevelop.Ide.ItemProperties.first PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/part2/LoopExercises.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/part2/ArraysExercises.cs">
     <Files>
-      <File FileName="HelloWorld/Program.cs" Line="73" Column="50" />
-      <File FileName="HelloWorld/Loops.cs" Line="67" Column="47" />
-      <File FileName="HelloWorld/part2/LoopExercises.cs" Line="10" Column="1" />
+      <File FileName="HelloWorld/Program.cs" Line="84" Column="13" />
+      <File FileName="HelloWorld/Arrayslec.cs" Line="39" Column="13" />
+      <File FileName="HelloWorld/ListLec.cs" Line="25" Column="1" />
+      <File FileName="HelloWorld/part2/ArraysExercises.cs" Line="10" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,7 @@
             <Node name="Solution Items" expanded="True" />
             <Node name="first" expanded="True">
               <Node name="part2" expanded="True">
-                <Node name="LoopExercises.cs" selected="True" />
+                <Node name="ArraysExercises.cs" selected="True" />
               </Node>
             </Node>
           </Node>

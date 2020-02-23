@@ -78,8 +78,12 @@ namespace first
             //Console.WriteLine("Factorial: "+
             //    loopExercises.recursiveFactorial(5));
             //loopExercises.askUserToGuessTheNumber();
-            loopExercises.getLargestNumbers();
+            //loopExercises.getLargestNumbers();
 
+
+            var arraysExercises = new part2.ArraysExercises();
+            //arraysExercises.askHowManyNames();
+            arraysExercises.reverseName();
 
 
 

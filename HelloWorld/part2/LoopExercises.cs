@@ -74,12 +74,8 @@ namespace first.part2
                 parsedNumbers[i] = int.Parse(numbers[i]);
             }
             Array.Sort(parsedNumbers);
-            foreach (var item in parsedNumbers)
-            {
-                Console.WriteLine("item: "+item);
-            }
-
-            Console.WriteLine("Highest number: "+ (parsedNumbers.Length-1));
+            var highestNumber = parsedNumbers.Length - 1;
+            Console.WriteLine("Highest number: "+highestNumber);
         }
 
 
