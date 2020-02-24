@@ -62,7 +62,6 @@ namespace first.part2
             var reverseNameArray = new char[name.Length];
             for (int i = name.Length; i > 0; i--)
             {
-                Console.WriteLine(name[i - 1]);
                 reverseNameArray[name.Length - i] = name[i - 1];
             }
             var reversedString = new string(reverseNameArray);
@@ -70,8 +69,64 @@ namespace first.part2
 
         }
 
+        // #3
+        public void getFiveUniqueNumbers()
+        {
+            var uniqueNumbers = new List<int>();
+            Console.WriteLine("Please enter 5 unique numbers...");
+            while (true)
+            {
+                Console.Write("unique number: ");
+                var number = int.Parse(Console.ReadLine());
+                if (uniqueNumbers.Contains(number))
+                {
+                    Console.WriteLine(number+" is already in the list...");
+                    continue;
+                }
+                uniqueNumbers.Add(number);
+                if (uniqueNumbers.Count == 5) break;
+
+            }
+            Console.WriteLine("Unique number list: "+ string.Join(",",uniqueNumbers));
+        }
 
 
+        // #4
+        public void getFiveNumbers()
+        {
+            //only display uniques
+            var numbers = new List<int>();
+            Console.WriteLine("Enter some numbers, type quit to exit: ");
+            while (true)
+            {
+                var input = Console.ReadLine();
+                if(input.ToLower().Equals("quite")) break;
+                var parsedInput = int.Parse(input);
+                if (!numbers.Contains(parsedInput))
+                    numbers.Add(parsedInput);
+            }
+
+            Console.WriteLine("Thank you, here is your set: " + string.Join(",", numbers));
+        }
+
+        //# 5
+        public void getThreeSmallesNumbers()
+        {
+            //Console.WriteLine("Please enter a set of numbers seperated by a coma: ");
+            //while (true)
+            //{
+            //    var input = Console.ReadLine();
+            //    var inputArray = input.Split("");
+            //    break;
+
+            //}
+            var name = "amber jones";
+            var split = name.Split(@"[a-z]");
+            foreach (var item in split)
+            {
+                Console.WriteLine("item"+item);
+            }
+        }
 
 
     }

@@ -83,7 +83,10 @@ namespace first
 
             var arraysExercises = new part2.ArraysExercises();
             //arraysExercises.askHowManyNames();
-            arraysExercises.reverseName();
+            //arraysExercises.reverseName();
+            //arraysExercises.getFiveUniqueNumbers();
+            arraysExercises.getThreeSmallesNumbers();
+
 
 
 
