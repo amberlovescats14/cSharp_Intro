@@ -2,26 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.first PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/part2/ArraysExercises.cs">
     <Files>
-      <File FileName="HelloWorld/Program.cs" Line="84" Column="13" />
-      <File FileName="HelloWorld/Arrayslec.cs" Line="39" Column="13" />
-      <File FileName="HelloWorld/ListLec.cs" Line="25" Column="1" />
-      <File FileName="HelloWorld/part2/ArraysExercises.cs" Line="10" Column="16" />
+      <File FileName="HelloWorld/Program.cs" Line="89" Column="1" />
+      <File FileName="HelloWorld/Arrayslec.cs" />
+      <File FileName="HelloWorld/part2/ArraysExercises.cs" Line="131" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="HelloWorld" expanded="True">
-            <Node name="second" expanded="True" />
-            <Node name="Solution Items" expanded="True" />
-            <Node name="first" expanded="True">
-              <Node name="part2" expanded="True">
-                <Node name="ArraysExercises.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

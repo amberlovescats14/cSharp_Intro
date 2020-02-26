@@ -112,20 +112,33 @@ namespace first.part2
         //# 5
         public void getThreeSmallesNumbers()
         {
-            //Console.WriteLine("Please enter a set of numbers seperated by a coma: ");
-            //while (true)
-            //{
-            //    var input = Console.ReadLine();
-            //    var inputArray = input.Split("");
-            //    break;
-
-            //}
-            var name = "amber jones";
-            var split = name.Split(@"[a-z]");
-            foreach (var item in split)
+            Console.WriteLine("Please enter a set of numbers seperated by a coma: ");
+            var numbersInChars = new List<string>();
+            while (true)
             {
-                Console.WriteLine("item"+item);
+                var input = Console.ReadLine();
+                if (!String.IsNullOrEmpty(input))
+                {
+                    var split = input.Split(',');
+                    if (split.Length >= 5)
+                    {
+                        numbersInChars.AddRange(split);
+                        break;
+                    }
+                    Console.WriteLine("input must be at least 5 numberes long");
+                }
+                Console.Write("numbers: ");
+
             }
+            var smallestThreeNumbers = new List<Int32>();
+            numbersInChars.Sort();
+            numbersInChars.Reverse();
+            for (int i = 0; i < numbersInChars.Count; i++)
+            {
+                if (i == 3) break;
+                smallestThreeNumbers.Add(Convert.ToInt32(numbersInChars[i]));
+            }
+            Console.WriteLine(String.Join("", smallestThreeNumbers));
         }
 
 
