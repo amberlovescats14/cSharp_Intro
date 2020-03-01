@@ -85,12 +85,17 @@ namespace first
             //arraysExercises.askHowManyNames();
             //arraysExercises.reverseName();
             //arraysExercises.getFiveUniqueNumbers();
-            arraysExercises.getThreeSmallesNumbers();
+            //arraysExercises.getThreeSmallesNumbers();
 
 
-
-
-
+            var stringBuilderExercises = new part2.StringBuilderExercise();
+            //Console.WriteLine(stringBuilderExercises.areNumbersConsecutive());
+            //stringBuilderExercises.checkForDuplicates();
+            //stringBuilderExercises.regexpTest("a");
+            //Console.WriteLine(stringBuilderExercises.getValidTime());
+            //var pascal = stringBuilderExercises.translateToPascalCase("AMBER NICOLE JONES");
+            //Console.WriteLine(pascal);
+            Console.WriteLine(stringBuilderExercises.getVowelCount("inadequate"));
         }
     }
 }
