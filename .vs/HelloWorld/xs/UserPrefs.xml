@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{98965359-FB9C-4C77-B780-C48FFFA49E83}|Default">
   <MonoDevelop.Ide.ItemProperties.first PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/part2/StringBuilderExercise.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/FileInfo.cs">
     <Files>
-      <File FileName="HelloWorld/Program.cs" Line="89" Column="1" />
-      <File FileName="HelloWorld/StringBuilderLec.cs" Line="20" Column="1" />
-      <File FileName="HelloWorld/part2/StringBuilderExercise.cs" Line="10" Column="11" />
+      <File FileName="HelloWorld/Program.cs" Line="109" Column="7" />
+      <File FileName="HelloWorld/StringBuilderLec.cs" />
+      <File FileName="HelloWorld/part2/StringBuilderExercise.cs" />
+      <File FileName="HelloWorld/FileInfo.cs" Line="10" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HelloWorld" expanded="True">
             <Node name="first" expanded="True">
-              <Node name="part2" expanded="True">
-                <Node name="StringBuilderExercise.cs" selected="True" />
-              </Node>
+              <Node name="part2" expanded="True" />
+              <Node name="FileInfo.cs" selected="True" />
             </Node>
           </Node>
         </State>
